@@ -1,0 +1,149 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    
+
+}
+
+.big-div{
+    background-color:black;
+    height: 450px;
+    position: relative;;
+    top: 0;
+    left: 0;
+    opacity: 1.8;
+}
+.box{
+background-image: url("images/About@2x.png");    
+display: flex;
+flex-direction: row;     
+position: absolute;
+z-index: 27;
+background-color:whitesmoke;
+border-radius: 3%;
+margin-left: 130px;
+height: 100%;
+width: 80%;
+top: 100px;
+}
+
+.smallbox1{
+    align-content: center;
+    width: 40%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+.smallbox2{
+    height: 450px;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 70px;
+
+    
+}
+
+.ic{
+    color: white;
+    margin-right: 10px;
+    padding-right: 20px;
+
+    width: 25%;
+    text-align: center;
+}
+
+.logo{
+    color: white;
+    margin-left: 9%;
+    margin-bottom: 4%;
+    padding: 20px;
+    width: 15%;
+
+}
+
+
+.ic-cont{
+    display: flex;
+    flex-direction:row;
+    
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 70%;
+}
+
+
+.call{
+    color: white;
+    text-align: right;
+    margin-right:9%;
+    padding: 20px;
+    width: 15%;
+}
+
+.box1{
+    display: flex;
+    float: left;
+    background-color: whitesmoke;
+    width: 80%;
+    height:300px;
+    margin-top: 100px;
+    margin-left: 130px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    border-radius: 3%;
+
+}
+
+.box2{
+position: relative;
+z-index: 2;
+background-color:black;
+border-radius: 3%;
+margin-left: 170px;
+height: 200px;
+width: 350px;
+top: 10px;
+text-align-last: center;
+}
+
+img{
+    margin-top: 60px;
+}
+
+.s1,.s2{
+    height: 200px;
+    
+    width: 150px;
+    background-color: yellow;
+}
+
+.s3{
+    margin-left: 80%;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 3%;
+    flex-direction: right;
+    background-color:blue;
+    height: 200px;
+    width: 150px;
+}
+
+.s4{
+    margin-left: 50%;
+    margin-right: 100px;
+    margin-top: 10px;
+    border-radius: 3%;
+    background-color: green;
+    height: 200px;
+    width: 150px;
+    flex-direction: right;
+}
+
+
