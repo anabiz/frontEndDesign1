@@ -190,8 +190,12 @@ img{
 }
 
 .l1{
+    background-image: url(images/Experience.png);
+    background-repeat: no-repeat;
+    background-size: 400px 100px;
+    background-position: center;
     align-content: center;
-    margin-top: 10px;
+    margin-top: 100px;
    height: 30%;
    width: 100%;
    
@@ -282,8 +286,9 @@ img{
 .sections{
     display: flex;
     flex-direction: column;
-    background-color:whitesmoke;
+    border: 1px solid blue;
     width: 80%;
+    height: 2100px;
     margin-top: 10px;
     margin-left: 130px;
     opacity: 0.9;
@@ -295,13 +300,15 @@ img{
     display: flex;
     flex-direction: column;
     height: 250px;
-    background-color: yellowgreen;
-    border: 1px solid ;
 }
  
 .se11{
-     height: 10%;
-     border: 1px solid blue;   
+    width: 95%;
+    background-color: whitesmoke;
+    height: 10%;
+    border-left: 2px solid black;
+    opacity: 0.9;
+    border-radius: 3%;   
 }
 
 .se12{
@@ -310,14 +317,79 @@ img{
 }
 
 .se121{
-    width: 40%;
+    width: 30%;
     height: 100%;
-    border: 1px solid blue;
 }
 
 .se122{
-    width: 55%;
+    width: 65%;
     height: 100%;
+    line-height: 200%;
+    padding-top: 20px;
+}
+
+.se121 img{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.a{
+    line-height: 80%;
+}
+
+
+.master{
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    border: 1px solid black;
+    margin-top: 100px;
+    opacity: 0.9;
+    border-radius: 3%;
+}
+
+.mas1{
+    border: 1px solid black;
+    width: 80%;
+    height:150px;
+    padding-top: 100px;
+    margin-left: 130px;
+    background-image: url(images/Masters.png);
+    background-repeat: no-repeat;
+    background-size: 400px 150px;
+    background-position: center;
+    text-align: center;
+    
+}
+
+.mas2{
+    display: flex;
+    background-color:whitesmoke;
+    border: 1px solid blue;
+    width: 100%;
+    height:500px;
+    opacity: 0.9;
+    border-radius: 3%;
+}
+
+.img1 img{
+    width: 150px;
+    height: 150px;
+  
     border: 1px solid red;
 }
+
+
+.img2 img{
+    width: 150px;
+    height: 150px;
+   
+    border: 1px solid red;
+}
+
+.img1{
+    margin-bottom: 50px;
+    border: 1px solid blue;
+}
+
 
