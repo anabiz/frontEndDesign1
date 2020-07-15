@@ -1,3 +1,4 @@
+
 .nav-bar{
     display: flex;
     flex-direction: row;
@@ -17,7 +18,10 @@
     opacity: 1.8;
 }
 .box{
-background-image: url("images/About@2x.png");    
+background-image: url("images/UI_UX@2x.png"); 
+background-repeat: no-repeat;
+background-size: 400px 200px;  
+background-position: center; 
 display: flex;
 flex-direction: row;     
 position: absolute;
@@ -96,7 +100,7 @@ top: 100px;
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.8;
+    opacity: 0.9;
     border-radius: 3%;
 
 }
@@ -117,28 +121,52 @@ img{
     margin-top: 60px;
 }
 
-.s1,.s2{
-    height: 200px;
+.s2{
+    position: relative;
+    z-index: 2;
+    left:120px;
+    border-radius: 50%;
+    height: 130px;
+    width: 100px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 0px;
     
-    width: 150px;
-    background-color: yellow;
+    
+   
+}
+
+.s1{
+    position: absolute;
+    border-radius: 50%;
+    height: 130px;
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 150px;
+    
 }
 
 .s3{
-    margin-left: 80%;
+   
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-left: 550px;
     border-radius: 3%;
-    flex-direction: right;
-    background-color:blue;
-    height: 200px;
-    width: 150px;
+    border-color: mediumblue;
+    height: 50px;
+    width: 450px;
 }
 
 .s4{
-    margin-left: 50%;
-    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    margin-right: 10px;
     margin-top: 10px;
+    border-color: maroon;
     border-radius: 3%;
     background-color: green;
     height: 200px;
@@ -146,4 +174,150 @@ img{
     flex-direction: right;
 }
 
+
+
+.bigbox3{
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    width: 80%;
+    height:500px;
+    margin-top: 1000px;
+    margin-left: 130px;
+    opacity: 0.9;
+    border-radius: 3%;
+
+}
+
+.l1{
+    align-content: center;
+    margin-top: 10px;
+   height: 30%;
+   width: 100%;
+   
+}
+
+ .l2{
+     display: flex;
+     flex-direction: row;
+    height: 15%;
+    width: 100%;
+    padding-top: 20px;
+
+ }
+
+ .l3{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    
+    align-content: center;
+ }
+
+ .l21{
+     margin-left: 190px;
+     width: 20%;
+     height: 30px;
+     border: 1px solid black;
+     border-bottom-left-radius: 10px;
+     border-top-left-radius: 10px;
+     text-align: center;
+     background-color:ghostwhite;
+ }
+
+ .l22{
+    border: 1px solid black;
+     text-align: center;
+     width: 20%;
+     height: 30px;
+ }
+
+ .l23{
+    width: 20%;
+    height: 30px;
+    border: 1px solid black;
+    margin-right: 10px;
+    padding-left: 9px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    background-color:black;
+    color: white;
+ }
+ 
+ .l31{
+    width:40%;
+    height: 250px;
+    text-align: center;
+    margin-left: 130px;
+    background-image: url(images/productBrand@2x.png);
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+  
+ }
+ .l32{
+     height: 250px;
+
+ }
+
+
+ 
+.sectiontitle{
+    background-image: url(images/Sessions.png);
+    background-repeat: no-repeat;
+    background-size: 400px 100px;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height:200px;
+    margin-top: 10px;
+    margin-left: 130px;
+    opacity: 0.9;
+    border-radius: 3%;
+
+}
+ 
+.sections{
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 130px;
+    opacity: 0.9;
+    border-radius: 3%;
+
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    background-color: yellowgreen;
+    border: 1px solid ;
+}
+ 
+.se11{
+     height: 10%;
+     border: 1px solid blue;   
+}
+
+.se12{
+    display: flex;
+    flex-direction: row;
+}
+
+.se121{
+    width: 40%;
+    height: 100%;
+    border: 1px solid blue;
+}
+
+.se122{
+    width: 55%;
+    height: 100%;
+    border: 1px solid red;
+}
 
