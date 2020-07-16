@@ -17,44 +17,48 @@
     left: 0;
     opacity: 1.8;
 }
+
+.about{
+    margin-top:300px;
+    height: 500px;
+    width: 100%;
+    position:absolute;
+}
+
 .box{
-background-image: url("images/UI_UX@2x.png"); 
-background-repeat: no-repeat;
-background-size: 400px 200px;  
-background-position: center; 
 display: flex;
 flex-direction: row;     
 position: absolute;
 z-index: 27;
 background-color:whitesmoke;
 border-radius: 3%;
-margin-left: 130px;
-height: 100%;
+margin-left: 10%;
+height: 500px;
 width: 80%;
 top: 100px;
 }
 
 .smallbox1{
+    background-image: url("images/UI_UX@2x.png"); 
+    background-repeat: no-repeat;
+    background-size: 400px 200px;  
+    background-position: center; 
     align-content: center;
     width: 40%;
-    height: 400px;
+    height: 80%;
     margin-left: 10%;
     margin-top: 70px;
 }
 .smallbox2{
-    height: 450px;
-    width: 40%;
-    margin-left: 10%;
-    margin-top: 70px;
+    height: 400px;
+    width: 400px;
 
-    
 }
 
 .ic{
     color: white;
     margin-right: 10px;
     padding-right: 20px;
-
     width: 25%;
     text-align: center;
 }
@@ -93,15 +97,15 @@ top: 100px;
     float: left;
     background-color: whitesmoke;
     width: 80%;
-    height:300px;
+    height:200px;
     margin-top: 100px;
-    margin-left: 130px;
-    height: 450px;
+    margin-left: 10%;
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0.9;
-    border-radius: 3%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 
 }
 
@@ -110,32 +114,26 @@ position: relative;
 z-index: 2;
 background-color:black;
 border-radius: 3%;
-margin-left: 170px;
+margin-left: 15%;
 height: 200px;
 width: 350px;
 top: 10px;
 text-align-last: center;
+}
+.box3{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: whitesmoke;
+    height: 150px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
 }
 
 img{
     margin-top: 60px;
 }
 
-.s2{
-    position: relative;
-    z-index: 2;
-    left:120px;
-    border-radius: 50%;
-    height: 130px;
-    width: 100px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    margin-left: 0px;
-    
-    
-   
-}
 
 .s1{
     position: absolute;
@@ -146,18 +144,37 @@ img{
     border-color: black;
     border-width: 1px;
     margin-left: 150px;
-    
 }
 
+.s2{
+
+    position: relative;
+    z-index: 2;
+    left:120px;
+    border-radius: 50%;
+    height: 130px;
+    width: 100px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 0px;
+}
+
+
 .s3{
-   
+    background-image: url(images/About.png);
+    background-repeat: no-repeat;
+    background-size: 200px 60px;
+    background-position: center;
+    text-align: center;
     margin-right: 10px;
-    margin-top: 50px;
-    margin-left: 550px;
+    padding-top:10px;
+    margin-top: 30px;
+    margin-left: 55%;
     border-radius: 3%;
     border-color: mediumblue;
-    height: 50px;
-    width: 450px;
+    height: 60px;
+    width: 250px;
 }
 
 .s4{
@@ -165,12 +182,12 @@ img{
     flex-direction: column;
     flex-wrap: wrap-reverse;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
     border-color: maroon;
     border-radius: 3%;
-    background-color: green;
-    height: 200px;
-    width: 150px;
+    border: 1px solid green;
+    height: 150px;
+    width: 50px;
     flex-direction: right;
 }
 
@@ -287,9 +304,9 @@ img{
     display: flex;
     flex-direction: column;
     width: 80%;
-    height: 21000px;
+    height: 10000px;
     margin-top: 10px;
-    margin-left: 130px;
+    margin-left: 10%;
     opacity: 0.9;
     border-radius: 3%;
 
@@ -302,6 +319,9 @@ img{
 }
  
 .se11{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
     width: 95%;
     background-color: whitesmoke;
     height: 10%;
@@ -309,6 +329,37 @@ img{
     opacity: 0.9;
     border-radius: 3%;   
 }
+
+.se111{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 7%;
+    width: 20%;
+    height: 100%;
+    
+}
+
+.se112{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 7%;
+    width: 20%;
+    height: 100%;
+
+}
+
+.se113{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 7%;
+    width: 20%;
+    height: 100%;
+    
+}
+
 
 .se12{
     display: flex;
@@ -445,18 +496,19 @@ img{
 .coursebody{
     display: flex;
     width: 100%;
-    height: 60%;
+    height: 500px;
 
 }
 .b1{
     width: 55%;
-    height: 100%;
+    height:70%;
     padding-left: 30px;
 }
 
 .b2{
     background-color:black;
     width: 45%;
+    height: 350px;
     text-align: center;
     border-radius: 5%;
     
@@ -496,20 +548,21 @@ img{
     margin-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
-    height: 400px;
+    height: 500px;
     width: 100%;
     opacity: 0.9;
 
 }
 
 .requestfom{
-    width: 60%;
-    height: 100%;
+    margin-right: 150px;
+    width: 450px;
+    height: 500px;
 }
 
 .requestenv{
-    width: 40%;
-    height: 100%;
+    width: 400px;
+    height: 400px;
     background-image: url(images/Screenshot\ \(31\).png);
     background-repeat: no-repeat;
     background-size: 80% 80%;
@@ -520,7 +573,7 @@ img{
     padding-top: 30px;
      color: white;
      text-align: center;
-     width: 100%;
+     width: 90%;
      height: 50%;
 
  }
@@ -550,11 +603,9 @@ img{
 .projecttitle{
     background-image: url(images/Projects@2x.png);
     background-repeat: no-repeat;
-    background-size: 400px 100px;
+    background-size: 50% 50%;
     background-position: center;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     width: 80%;
     height:200px;
     margin-top: 100px;
@@ -577,12 +628,12 @@ img{
 .pro1{
     padding-left: 5%;
     height: 500px;
-    width: 50%;
+    width: 470px;
 }
 
 .pro2{
     height: 500px;
-    width: 45%;
+    width: 470px;
     background-image: url(images/Screenshot\ \(32\).png);
     background-repeat: no-repeat;
     background-size: 350px 450px;
@@ -601,7 +652,7 @@ img{
     background-color:whitesmoke;
     width: 100%;
     margin-top: 50px;
-    height: 500px;
+    height: 700px;
     opacity: 0.9;
     border-radius: 3%;
 }
@@ -612,7 +663,7 @@ img{
     padding-top: 60px;
     background-image: url(images/Schedule.png);
     background-repeat: no-repeat;
-    background-size: 400px 100px;
+    background-size: 40% 40%;
     background-position: center;
     text-align: center;
 
@@ -650,7 +701,7 @@ img{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height:200px;
+    height:2%;
     margin-top: 100px;
     opacity: 0.9;
     border-radius: 3%;
@@ -664,7 +715,7 @@ img{
     height: 100%;
     background-image: url(images/Screenshot\ \(33\).png);
     background-repeat: no-repeat;
-    background-size: 200px 50px;
+    background-size: 40% 20%;
     background-position: center;
 
 }
@@ -675,7 +726,7 @@ img{
     margin-left: 120px;
     background-image: url(images/p.png);
     background-repeat: no-repeat;
-    background-size: 200px 50px;
+    background-size: 40% 20%;
     background-position: center;
 
 }
@@ -690,4 +741,92 @@ img{
 }
 
 
+
+/* my Media query*/
+
+
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+    }
+
+
+  .projecttitle{
+    background-size: 50% 50%;
+}
+
+
+.projectbody{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 1000px;
+}
+
+
+.request{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 800px;
+    width: 100%;
+    opacity: 0.9;
+
+}
+.sub2 {
+    margin-left: 1px;
+    
+}
+.sub3{
+    width: 70%;
+}
+
+.coursefee{
+    height: 1400px;
+}
+.coursebody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 1200px;
+}
+.b2{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 300px;
+    align-items: center;
+}
+.b1{
+    height: 80%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    align-items: center;
+}
+.box2{
+    display: none;
+}
+.box1{
+    margin-top: 50px;
+    position: relative;
+}
+.about{
+    border: 1px solid ;
+    position: relative;
+    height: 600px;
+    margin-top: 800px;
+}
+.box3{
+    margin-top: 200px;
+    height: 300px;
+}
+}
 
