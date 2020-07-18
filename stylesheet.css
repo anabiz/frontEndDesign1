@@ -740,12 +740,60 @@ img{
 
 
 
+
+.hambug{
+    display: none;
+}
+
+.mylinks{
+    display: none;
+}
+
+.mylinks a{
+    display: none;
+}
+
+
+
+
 /* my Media query*/
 
 
 @media only screen and (max-width: 900px) {
   .projecttitle{
     background-size: 50% 50%;
+}
+
+
+.hambug div{
+    width: 15px;
+    height: 5px; 
+    margin: 6px 0;
+    border: 1px solid white;
+}
+.hambug{
+    display: block;
+    width: 35px;
+    height: 38px;
+    background-color: red;
+    border: 1px solid white;
+}
+
+.mylinks a{
+    margin: 6px 0;
+}
+
+.mylist{
+    background-color: red;
+    position: absolute;
+    top: 190px;
+    bottom: 100px;
+    opacity: 90;
+    width: 150px;
+    height: 250px;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
 }
 
 
