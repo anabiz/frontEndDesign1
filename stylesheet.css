@@ -773,16 +773,17 @@ img{
 .hambug div{
     width: 15px;
     height: 5px; 
-    margin: 6px 0;
-    border: 1px solid white;
+    margin: 6px 6px;
+    background-color: black;
 }
 .hambug{
+    
     display: block;
     width: 35px;
     height: 38px;
     margin: 15px 15px 0px ;
     background-color: red;
-    border: 1px solid white;
+    
 }
 
 .mylinks{
