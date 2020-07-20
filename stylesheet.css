@@ -778,26 +778,30 @@ img{
     background-color: black;
 }
 .hambug{
-    
     display: block;
     width: 35px;
     height: 38px;
     margin: 15px 15px 0px ;
-    background-color: red;
+    background-color: #F5F5F5;
     
 }
 
 .mylinks{
+    border: 1px solid;
     text-align: center;
-    background-color: black;
-    margin-left: 84%;
+    background-color: #F5F5F5;
+    margin-left: 74%;
     position: absolute;
     z-index: 3;
     width: 150px;
-    height: 250px;
-    border: 1px solid yellow;
+    height: 290px;
     display: none;
     border-radius: 15px;
+}
+.ac{
+    margin: 20px auto;
+    color: rebeccapurple;
+
 }
 
 
