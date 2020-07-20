@@ -392,14 +392,14 @@ img{
     background-color:whitesmoke;
     margin-top: 100px;
     opacity: 0.9;
-    border-radius: 3%;
+    border-radius: 15px;
 }
 
 .mas1{
     width: 80%;
     height:150px;
     padding-top: 100px;
-    margin-left: 130px;
+    margin-left: 10%;
     background-image: url(images/Masters.png);
     background-repeat: no-repeat;
     background-size: 60% 150px;
@@ -693,12 +693,13 @@ img{
 
 
 .footer{
+    align-items: center;
+    border: 1px solid yellow;
     background-color: whitesmoke;
-    text-align: center;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height:2%;
+    height:150px;
     margin-top: 100px;
     opacity: 0.9;
     border-radius: 3%;
@@ -707,7 +708,7 @@ img{
 
 
 .foo1{
-    
+    border: 1px solid green;
     width: 30%;
     height: 100%;
     background-image: url(images/Screenshot\ \(33\).png);
@@ -718,23 +719,29 @@ img{
 }
 
 .foo2{
-    width: 30%;
+    border: 1px solid red;
+    width: 250px;
     height: 100%;
-    margin-left: 120px;
+    margin-left: 10%;
     background-image: url(images/p.png);
     background-repeat: no-repeat;
-    background-size: 40% 20%;
+    background-size: 150px 50px;
     background-position: center;
 
 }
  
 .foo3{
+    position: relative;
+    border: 1px solid;
     width: 30%;
     height: 100%;
     align-items: center;
     text-align: center;
-    padding-top: 80px;
     padding-left: 20%;
+}
+.f003 p{
+    position: absolute;
+    top: 10px;
 }
 
 
@@ -804,6 +811,9 @@ img{
     flex-direction: column;
     margin-top: 50px;
     height: 1000px;
+}
+.pro1 div{
+    margin-left: 5%;
 }
 
 
@@ -924,24 +934,28 @@ img{
     height: 600px;
 }
 
-.img1{
-    width: 100%;
-    height: 4300px;
-    display: flex;
-    flex-direction: column;
-    
-}
+
 
 .master{
-    height: 4500px;
+    height: 3600px;
+    width: 80%;
+}
+
+.img1{
+    text-align: center;
+    width: 100%;
+    height: 3400px;
+    display: flex;
+    flex-direction: column;
 }
 
 .mas2{
-    height:4000px;
+    text-align: center;
+    height:3050px;
 }
 .img2{
     width: 100%;
-    height: 4300px;
+    height: 3000px;
     display: flex;
     flex-direction: column;
 
