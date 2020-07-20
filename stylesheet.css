@@ -284,7 +284,7 @@ img{
 .sectiontitle{
     background-image: url(images/Sessions.png);
     background-repeat: no-repeat;
-    background-size: 400px 100px;
+    background-size: 50% 70%;
     background-position: center;
     text-align: center;
     display: flex;
@@ -292,7 +292,7 @@ img{
     width: 80%;
     height:200px;
     margin-top: 10px;
-    margin-left: 130px;
+    margin-left: 10%;
     opacity: 0.9;
     border-radius: 3%;
 
@@ -402,7 +402,7 @@ img{
     margin-left: 130px;
     background-image: url(images/Masters.png);
     background-repeat: no-repeat;
-    background-size: 400px 150px;
+    background-size: 60% 150px;
     background-position: center;
     text-align: center;
     
@@ -443,7 +443,6 @@ img{
     background-position: center;
     text-align: center;
     background-color: whitesmoke;
-    
     display: flex;
     flex-direction: column;
     height:200px;
@@ -754,12 +753,12 @@ img{
 
 
 
-
 /* my Media query*/
 
 
 @media only screen and (max-width: 900px) {
-  .projecttitle{
+  
+    .projecttitle{
     background-size: 50% 50%;
 }
 
@@ -879,12 +878,25 @@ img{
     margin-top: 100px;
 }
 
+.l21, .l22, .l23{
+    font-size: small;
+}
 .l3{
     display: flex;
     flex-direction: column;
     height: 500px;
     width: 100%;
     align-items: center;
+ }
+
+ 
+.se11{
+    width: 100%;
+    height: 20%;  
+}
+
+ .se11, h3{
+     font-size: smaller;
  }
 
 .se12{
