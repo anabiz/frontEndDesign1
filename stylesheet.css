@@ -694,7 +694,6 @@ img{
 
 .footer{
     align-items: center;
-    border: 1px solid yellow;
     background-color: whitesmoke;
     display: flex;
     flex-direction: row;
@@ -708,18 +707,14 @@ img{
 
 
 .foo1{
-    border: 1px solid green;
+    display: flex;
     width: 30%;
     height: 100%;
-    background-image: url(images/Screenshot\ \(33\).png);
-    background-repeat: no-repeat;
-    background-size: 40% 20%;
-    background-position: center;
-
+    align-items: center;
+    
 }
 
 .foo2{
-    border: 1px solid red;
     width: 250px;
     height: 100%;
     margin-left: 10%;
@@ -732,16 +727,16 @@ img{
  
 .foo3{
     position: relative;
-    border: 1px solid;
     width: 30%;
     height: 100%;
     align-items: center;
     text-align: center;
     padding-left: 20%;
 }
-.f003 p{
+#foo3p{
     position: absolute;
-    top: 10px;
+    top: 30px;
+    left:20%
 }
 
 
@@ -958,7 +953,15 @@ img{
     height: 3000px;
     display: flex;
     flex-direction: column;
+}
+
+.foo1{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    
+}
 
 }
-}
+
 
